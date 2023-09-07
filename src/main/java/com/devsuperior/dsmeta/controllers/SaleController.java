@@ -32,7 +32,6 @@ public class SaleController {
 
 		return ResponseEntity.ok(service.salesSummaryPerSeller(minDate, maxDate, name, pageable));
 
-
 	}
 
 	@GetMapping(value = "/summary")
